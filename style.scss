@@ -1,7 +1,18 @@
 body {
   background: pink;
+}
+
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  p {
+    background-color: coral;
+  }
+  .card__wrapper {
+    .card__container {
+      border: 1px solid red;
+    }
+  }
 }
